@@ -23,9 +23,6 @@ class Util {
         }
 
         // Checks
-        if (!$numArgs) {
-            throw new \InvalidArgumentException("No parameters sent.");
-        }
         if ($numArgs == 1) {
             throw new \InvalidArgumentException("Minimum of two parameters is required.");
         }
